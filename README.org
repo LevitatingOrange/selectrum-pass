@@ -1,0 +1,11 @@
+* selectrum-pass
+** Quick start
+Largely based on https://github.com/ecraven/ivy-pass.
+
+Install with =straight.el=. I would do it with =use-package=:
+#+BEGIN_SRC emacs-lisp
+(use-package
+     :straight (apheleia :host github :repo "levitatingorange/selectrum-pass"))
+#+END_SRC
+
+Run =M-x selectrum-pass=
